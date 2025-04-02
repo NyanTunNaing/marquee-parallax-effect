@@ -20,7 +20,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install framer-motion lenis sass
+  npm install gsap lenis sass
 ```
 
 Start the server
