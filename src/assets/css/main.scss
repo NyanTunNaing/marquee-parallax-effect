@@ -11,11 +11,9 @@
 
 /* ------------------------- Variables -------------------------------------------------- */
 
-::root {
-  --color-dark: #1c1d20;
+$color-dark: #1c1d20;
 
-  --animation-primary: 0.4s cubic-bezier(0.5, 0.75, 0, 1);
-}
+$animation-primary: 0.4s cubic-bezier(0.5, 0.75, 0, 1);
 
 /* ------------------------- Normalization -------------------------------------------------- */
 
@@ -30,7 +28,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: "Heading";
-  color: var(--color-dark);
+  color: $color-dark;
 }
 
 /* ------------------------- Styles -------------------------------------------------- */
